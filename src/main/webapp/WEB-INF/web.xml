@@ -4,3 +4,50 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
 </web-app>
+    <servlet>
+        <servlet-name>ServeLogin</servlet-name>
+        <servlet-class>com.farmaback.farmaback.ServeLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServeLogin</servlet-name>
+        <url-pattern>/Servelogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServeXips</servlet-name>
+        <servlet-class>com.farmaback.farmaback.ServeXips</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServeXips</servlet-name>
+        <url-pattern>/ServeXips</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServeMedicines</servlet-name>
+        <servlet-class>com.farmaback.farmaback.ServeMedicines</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServeMedicines</servlet-name>
+        <url-pattern>/ServeMedicines</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServePatients</servlet-name>
+        <servlet-class>com.farmaback.farmaback.ServePatients</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServePatients</servlet-name>
+        <url-pattern>/ServePatients</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServeRelease</servlet-name>
+        <servlet-class>com.farmaback.farmaback.ServeRelease</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServRelease</servlet-name>
+        <url-pattern>/ServRelease</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
